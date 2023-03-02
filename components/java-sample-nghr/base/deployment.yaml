@@ -25,7 +25,7 @@ spec:
         app.kubernetes.io/instance: java-sample-nghr
     spec:
       containers:
-      - image: quay.io/stonesoupuicluster/uidev-user-workload:Syk6v-java-sample-nghr
+      - image: quay.io/stonesoupuicluster/uidev-user-workload@sha256:0638f031ac4ec5ec1bac1f85a9f77218e53ba56474c0e49437ec437ca74deaec
         name: my-java-quarkus
         ports:
         - containerPort: 8081
